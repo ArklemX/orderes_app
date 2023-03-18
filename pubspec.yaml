@@ -1,0 +1,25 @@
+name: orderes_app
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project to test out the ObjectBox database.
+environment: 
+  sdk: '>=2.19.3 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  flutter: 
+    sdk: flutter
+  objectbox: ^1.7.2
+  objectbox_flutter_libs: any
+
+dev_dependencies: 
+  build_runner: ^2.3.3
+  flutter_lints: 2.0.1
+  flutter_test: 
+    sdk: flutter
+  objectbox_generator: any
+
+flutter: 
+  uses-material-design: true
+
